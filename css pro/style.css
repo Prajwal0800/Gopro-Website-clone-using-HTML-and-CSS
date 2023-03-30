@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    height: 60px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+header {
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Aldrich', sans-serif;
+    color: black;
+    display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li:hover {
+    background-color: white;
+    transform: scaleY(130%);
+    transition: all 30ms;
+}
+
+.container {
+    min-height: 100vh;
+}
